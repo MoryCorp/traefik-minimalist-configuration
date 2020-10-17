@@ -1,0 +1,1 @@
+# traefik2-minimalist-configuration
