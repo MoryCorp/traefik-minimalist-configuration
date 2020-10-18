@@ -1,8 +1,8 @@
 # Traefik 2.0 Minimalist Configuration
 
-In this repository, I provide a very simple configuration of Traefik 2 that I use for most of my services, including my blog Holory.fr
+In this repository, I provide a very simple configuration of Traefik 2 that I use for most of my services, including my blog https://holory.fr
 
-Warning, understand that with this configuration, you will have the Traefik dashboard accessible in http on the address: yourdomain.com:8080. This dashboard should not be accessible in a production environment and you must disable it once your functional tests are completed.
+Warning, understand that with this configuration, you will have the Traefik dashboard accessible in http on the address: http://yourdomain.com:8080. This dashboard should not be accessible in a production environment and you must disable it once your functional tests are completed.
 
 If you want to disable the dashboard, just delete line 10 of the docker-compose.yml : 
 
