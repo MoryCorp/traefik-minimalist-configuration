@@ -18,6 +18,10 @@ Finally, all you have to do is execute the command below on the acme.json file t
 
 ``chmod 600 acme.json``
 
+AND edit line 25 of traefik.toml :  
+
+``email = "change_this@your_email.com"``
+
 Once all your files are configured, place yourself in the root of the configuration directory and start the Traefik container with: 
 
 ``docker-compose up -d``
