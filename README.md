@@ -1,4 +1,4 @@
-# Traefik 2.0 Minimalist Configuration
+# Traefik Minimalist Configuration
 
 In this repository, I provide a very simple configuration of Traefik 2 that I use for most of my services, including my blog https://holory.fr
 
